@@ -1,0 +1,24 @@
+// Hero (core/sections/_hero.scss) -----------------------------
+$hero--padding-t__mobile: 		10vh;		// hero, top padding (mobile)
+$hero--padding-b__mobile: 		null;		// hero, bottom padding (mobile)
+$hero--padding-t__desktop: 		null;		// hero, top padding (desktop)
+// $hero--padding-t__desktop: 		200px;		// hero, top padding (desktop)
+// $hero--padding-b__desktop: 		null;		// hero, bottom padding (desktop)
+$hero--padding-b__desktop: 		200px;		// hero, bottom padding (desktop)
+// $hero--padding-b__desktop: 		100px;		// hero, bottom padding (desktop)
+$hero--inner-padding-v_mobile: 	48px;		// vertical padding, i.e. padding between content and image (mobile, both hero split and hero full)
+// $hero--inner-padding-v_desktop: 64px;		// vertical padding, i.e. padding between content and image (desktop, only hero full)
+$hero--inner-padding-v_desktop: 210px;		// vertical padding, i.e. padding between content and image (desktop, only hero full)
+
+
+$generator--input-min-width_mobile: 90%;;
+$generator--input-max-width_mobile: null;
+
+$generator--input-min-height_mobile: 35vh;
+$generator--input-max-height_mobile: null;
+
+$generator--input-min-width_desktop: 90%;;
+$generator--input-max-width_desktop: null;
+
+$generator--input-min-height_desktop: 35vh;
+$generator--input-max-height_desktop: null;
