@@ -66,7 +66,7 @@ const Generator = ({
         else{
             var prompt = prompts.Generalized;
         }
-        console.log('her',prompt)
+        // console.log('her',prompt)
         // console.log('selectedOptions',selectedOptions)
 
         // var item = items[Math.floor(Math.random()*items.length)];
@@ -116,7 +116,7 @@ const Generator = ({
             // setOutput(gen);
             setMessage("What do you expect ?");
             setError("")
-          console.log(response.data.generations);
+        //   console.log(response.data.generations);
         }
 
       })
@@ -198,9 +198,9 @@ const Generator = ({
                 </p>
 
 
-            {/* <MultipleSelectChip selected={sel=>setselectedOptions(sel)}/> */}
+            <MultipleSelectChip selected={sel=>setselectedOptions(sel)}/>
             
-            {selectedOptions.map(o => <p>{o.value}</p>)}
+            {/* {selectedOptions.map(o => <p>{o.value}</p>)} */}
             
             <textarea 
                 readOnly
