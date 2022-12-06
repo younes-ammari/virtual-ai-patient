@@ -78,8 +78,8 @@ const SeeDemoVideo = ({
           
           <div className="reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
             <a
-              data-video="https://player.vimeo.com/video/174002812"
-              href="#0"
+              data-video="https://youtu.be/t34Y_BLQYus"
+              href=""
               // data-video="https://player.vimeo.com/video/174002812"
               // href="#0"
               aria-controls="video-modal"
@@ -87,9 +87,9 @@ const SeeDemoVideo = ({
             >
               <Image
                 className="has-shadow"
-                src={'https://i.ytimg.com/vi/5AGdK-eTasM/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLDbbNLVD5mQTpQCP-ZfHQBEFiuheg'}
+                // src={'https://i.ytimg.com/vi/5AGdK-eTasM/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLDbbNLVD5mQTpQCP-ZfHQBEFiuheg'}
                 // src={require('./../../assets/images/video-placeholder2.jpg')}
-                // src={require('./../../assets/images/video-placeholder.jpg')}
+                src={require('./../../assets/images/video-placeholder.png')}
                 alt="Hero"
                 width={896}
                 height={504} />
@@ -99,7 +99,9 @@ const SeeDemoVideo = ({
             id="video-modal"
             show={videoModalActive}
             handleClose={closeModal}
-            video="https://www.youtube.com/embed/5AGdK-eTasM"
+            // video="https://www.youtube.com/embed/5AGdK-eTasM"
+            video="https://www.youtube.com/embed/t34Y_BLQYus"
+            // video="https://youtu.be/A7N8OLPbQAA"
             // videoTag="iframe"
              />
         </div>

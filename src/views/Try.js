@@ -1,4 +1,5 @@
 import React from 'react';
+import { useEffect } from 'react';
 // import sections
 // import Hero from '../components/sections/Hero';
 // import FeaturesTiles from '../components/sections/FeaturesTiles';
@@ -9,6 +10,9 @@ import React from 'react';
 import Generator from '../components/sections/Generator';
 
 const Try = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  })
 
   return (
     <>

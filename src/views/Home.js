@@ -13,12 +13,11 @@ const Home = () => {
     <>
       <br/>
       <br/>
-      <br/>
       <Hero className="illustration-section-01" />
       <SeeDemoVideo />
-      <FeaturesTiles />
-      <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" />
-      <Testimonial topDivider />
+      {/* <FeaturesTiles /> */}
+      {/* <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" /> */}
+      {/* <Testimonial topDivider /> */}
       {/* <Cta split /> */}
     </>
   );
