@@ -122,7 +122,7 @@ const Header = ({
                       <Link to="#0" onClick={closeMenu}>Team</Link>
                     </li>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Contact Us</Link>
+                      <Link to="#0" onClick={closeMenu}>Contact us</Link>
                     </li>
                   </ul>
                   {!hideSignin &&

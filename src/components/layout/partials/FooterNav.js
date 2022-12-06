@@ -19,16 +19,16 @@ const FooterNav = ({
     >
       <ul className="list-reset">
         <li>
-          <Link to="/">Contact</Link>
+          <Link to="/">Whats is vAIp?</Link>
         </li>
         <li>
-          <Link to="/">About us</Link>
+          <Link to="/">Features</Link>
         </li>
         <li>
-          <Link to="/">FAQ's</Link>
+          <Link to="/">Team</Link>
         </li>
         <li>
-          <Link to="/">Support</Link>
+          <Link to="/">Contact us</Link>
         </li>
       </ul>
     </nav>
