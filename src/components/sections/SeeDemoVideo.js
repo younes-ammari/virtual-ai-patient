@@ -46,7 +46,7 @@ const SeeDemoVideo = ({
   // );
 
   const sectionHeader = {
-    title: 'Look out how our model works',
+    title: 'Look out how our product works',
     paragraph: 'we used cohere generative model api.'
   };
 

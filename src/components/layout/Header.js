@@ -78,8 +78,16 @@ const Header = ({
     <header
       {...props}
       className={classes}
+      style={{
+        position:"static",
+        top:0,
+        // backgroundColor:'red',
+        zIndex:15,
+
+      }}
+      
     >
-      <div className="container">
+      <div className="container" >
         <div className={
           classNames(
             'site-header-inner',
@@ -113,17 +121,46 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Whats is vAIp?</Link>
+                      <Link to="/" onClick={
+                        async ()=>{
+                          setTimeout(() => {
+                            document.getElementById('what-is-vaip').scrollIntoView({ behavior: "smooth" });
+                            // console.log('timourt')
+                          }, 0);
+                          closeMenu()}}>
+                            Whats is vAIp?
+                        </Link>
                     </li>
+                    
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Features</Link>
+                      <Link to="/" onClick={
+                        async ()=>{
+                          setTimeout(() => {
+                            document.getElementById('features').scrollIntoView({ behavior: "smooth" });
+                            // console.log('timourt')
+                          }, 0);
+                          closeMenu()}}>
+                            Features
+                        </Link>
                     </li>
+                    
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Team</Link>
+                      <Link to="/" onClick={
+                        async ()=>{
+                          setTimeout(() => {
+                            document.getElementById('team').scrollIntoView({ behavior: "smooth" });
+                            // console.log('timourt')
+                          }, 0);
+                          closeMenu()}}>
+                            Team
+                        </Link>
                     </li>
-                    <li>
-                      <Link to="#0" onClick={closeMenu}>Contact us</Link>
-                    </li>
+                    {/* <li>
+                      <Link to="/contact-us" >
+                        
+                            Contact us
+                        </Link>
+                    </li> */}
                   </ul>
                   {!hideSignin &&
                     <ul

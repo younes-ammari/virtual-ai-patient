@@ -33,7 +33,7 @@ const FeaturesTiles = ({
   );
 
   const innerClasses = classNames(
-    'features-tiles-inner section-inner pt-0',
+    'features-tiles-inner section-inner pt-32',
     topDivider && 'has-top-divider',
     bottomDivider && 'has-bottom-divider'
   );
@@ -44,16 +44,18 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'Build up the whole picture',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'Awesome Features',
+    paragraph: '  '
   };
 
   return (
     <section
       {...props}
       className={outerClasses}
+      id='features'
     >
-      <div className="container">
+      <div className="container" >
+        {/* <br/> */}
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={tilesClasses}>
@@ -71,10 +73,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Customized prompts 
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    Practice on some diseases and you will see speciafied generated clinical case.
                     </p>
                 </div>
               </div>
@@ -93,10 +95,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Avoiding false diagnosis
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    by using Virtual AI Patient we can avoide the risks of false diagnosis on real patients.
                     </p>
                 </div>
               </div>
@@ -115,10 +117,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Easy and simple
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    An interactive platform which makes the user experience much easy and enjoyable!.
                     </p>
                 </div>
               </div>
@@ -137,10 +139,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Dedicated for med students
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    it's an educational purpose product, so it can be used in medical institues and hospitals for training.
                     </p>
                 </div>
               </div>
@@ -159,10 +161,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Works everywhere!
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    Our product can be used in different ways ex: websites, mobile apps.
                     </p>
                 </div>
               </div>
@@ -181,10 +183,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    No worries about mistakes
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    It's a Virtual patient so even if there is a false diagnosis that's not the end cause our patient won't be hurted.
                     </p>
                 </div>
               </div>
